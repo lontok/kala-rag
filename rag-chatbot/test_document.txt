@@ -1,0 +1,42 @@
+Introduction to Retrieval-Augmented Generation (RAG)
+
+Retrieval-Augmented Generation (RAG) is a powerful technique that combines the strengths of large language models with external knowledge retrieval. This approach addresses one of the key limitations of traditional language models: their knowledge is frozen at the time of training.
+
+How RAG Works
+
+The RAG process involves several key steps:
+
+1. Document Ingestion: External documents are processed and stored in a searchable format.
+
+2. Embedding Generation: Text is converted into high-dimensional vectors that capture semantic meaning.
+
+3. Vector Storage: These embeddings are stored in a vector database for efficient similarity search.
+
+4. Query Processing: When a user asks a question, it is also converted into an embedding.
+
+5. Retrieval: The system finds the most relevant document chunks by comparing embeddings.
+
+6. Context Enhancement: Retrieved information is combined with the user's query.
+
+7. Response Generation: The language model generates a response using both the query and retrieved context.
+
+Benefits of RAG
+
+RAG systems offer several advantages:
+
+- Up-to-date Information: Can access information beyond the model's training data
+- Reduced Hallucination: Responses are grounded in actual documents
+- Transparency: Can cite sources for generated answers
+- Domain Specialization: Can be tailored to specific knowledge bases
+
+Applications
+
+RAG is particularly useful for:
+
+- Customer support systems
+- Research assistants
+- Documentation Q&A
+- Knowledge management systems
+- Educational tools
+
+This document serves as a test for our RAG chatbot implementation.

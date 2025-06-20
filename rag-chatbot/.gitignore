@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Project specific
+data/documents/*
+data/chroma_db/*
+logs/
+.env
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+*.pkl
+
+# Models
+models/
+*.bin
+*.onnx
+
+# Keep directories
+!data/documents/.gitkeep
+!data/chroma_db/.gitkeep
